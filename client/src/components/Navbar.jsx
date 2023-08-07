@@ -9,8 +9,7 @@ export default function Navbar() {
     <div className="navbar" >
       <div className="logo">
         <Link to='/'>
-          pawsitively
-          PALS
+          pawsitively PALS
         </Link>
       </div>
       <div className="links">

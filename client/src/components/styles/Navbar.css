@@ -9,7 +9,8 @@
 
 .navbar-logo {
 display: flex;
-align-items: center;
+flex-direction: column;
+align-self: center;
 text-decoration: none;
 color: white;
 font-weight: bold;

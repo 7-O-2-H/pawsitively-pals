@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
-//import './App.css';
+import './App.css';
 
 export default function App() {
 
