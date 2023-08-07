@@ -1,0 +1,69 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: seagreen;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+  z-index: 9999;
+}
+
+.navbar-logo {
+display: flex;
+align-items: center;
+text-decoration: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+  color: white;
+  font-family: 'Josefin Sans';
+  font-size: larger;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: .7em;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+.bestie {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  justify-content: space-around;
+  color: white;
+  font-family: 'Josefin Sans';
+  font-weight: bold;
+}
+
+.bestie a {
+  margin:0;
+  border: 0;
+  font-size:xx-large;
+}
+
+button {
+
+  background-color: seagreen;
+  border: none;
+  color: white;
+  font-size: 25px;
+  border-radius: 3px;
+  height: 100hv;
+  margin: 20px;
+  font-family: 'Josefin Sans';
+}
+
+button:hover {
+  cursor: pointer;
+}
